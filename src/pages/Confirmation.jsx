@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../components/Navbar/Navbar";
+import { Link } from "react-router-dom";
 
 export default class Confirmation extends Component {
   render() {
@@ -47,20 +48,18 @@ export default class Confirmation extends Component {
                         </p>
                       </div>
                       <div className="button mt-5">
-                        <a
-                          href="#"
+                        <Link
                           className="btn btn-success rounded-pill"
                           style={{ width: "250px" }}
                         >
                           Accept
-                        </a>
-                        <a
-                          href="#"
+                        </Link>
+                        <Link
                           className="btn btn-danger ml-2 rounded-pill"
                           style={{ width: "250px" }}
                         >
                           Reject
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

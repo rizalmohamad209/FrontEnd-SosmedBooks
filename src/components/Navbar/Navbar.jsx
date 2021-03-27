@@ -38,7 +38,7 @@ export default class Navbar extends Component {
                   style={{
                     width: "60px",
                     height: "60px",
-                    marginLeft: "-300px",
+                    marginLeft: "-200px",
                   }}
                   alt=""
                 />
