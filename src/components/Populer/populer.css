@@ -1,0 +1,9 @@
+.badge-linear-blue {
+  background: linear-gradient(118.85deg, #6e79e5 5.38%, #0a0529 100.35%);
+}
+.badge-linear-red {
+  background: linear-gradient(120.27deg, #7a284c 22.3%, #e95b2b 100.93%);
+}
+.badge-linear-pink {
+  background: linear-gradient(328.64deg, #f7e9e0 -26.33%, #f7a1a0 74.45%);
+}
